@@ -1,3 +1,75 @@
-h1 {
-  color: red;
+body {
+  width: 375px;
+  background-color: white;
+  position: absolute;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.appBar {
+  position: absolute;
+  top: 15px;
+}
+
+.bg {
+  padding-top: 62px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  left: calc(51% - 375px / 2);
+  top: 68px;
+}
+
+.headlineText {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 52px;
+  align-items: center;
+  color: #172b4d;
+}
+
+.primaryText {
+  width: 327px;
+  height: 146px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.socialMedia {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1px;
+  color: #7f8cff;
+  margin-top: 24px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 20px;
+  width: 117px;
+  height: 24px;
+  margin-top: 28px;
+  cursor: pointer;
 }
