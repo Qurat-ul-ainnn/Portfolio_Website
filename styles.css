@@ -219,3 +219,118 @@ body {
   border-radius: 12px;
   background-color: #fff;
 }
+.myself {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  left: calc(51% - 375px / 2);
+}
+.resume-btn {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  display: flex;
+  width: 290px;
+  margin-left: 0;
+}
+.resume {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  color: #396df2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 220px;
+  height: 68px;
+  top: calc(50% - 48px / 2);
+  border: 2px solid #6070ff;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.languages {
+  height: 10px;
+  left: 0px;
+
+  /* Body / 1 - Bolder */
+  font-family: "Poppins";
+  font-style: light;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  color: #000000;
+}
+.frameworks {
+  height: 10px;
+  left: 0px;
+  margin-top: 90px;
+  /* Body / 1 - Bolder */
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  color: #000000;
+}
+
+.skills {
+  height: 10px;
+  left: 0px;
+
+  /* Body / 1 - Bolder */
+  font-family: "Poppins";
+  font-style: light;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  display: flex;
+  align-items: center;
+  gap: 10.5rem;
+  color: #000000;
+}
+.lang {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+}
+.lang ul {
+  height: 24px;
+  left: 76px;
+  right: 12px;
+  top: calc(50% - 24px / 2 - 0.36px);
+
+  /* Body / 3 - Bolder */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+
+  /* Neutrals/N700 */
+  color: #253858;
+}
+.lang li {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
