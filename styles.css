@@ -73,6 +73,7 @@ body {
   margin-top: 28px;
   cursor: pointer;
 }
+
 .workSection {
   display: grid;
   margin-top: 6rem;
@@ -80,6 +81,7 @@ body {
   gap: 5rem;
   margin-bottom: 8rem;
 }
+
 .cards {
   display: flex;
   flex-direction: column;
@@ -89,10 +91,11 @@ body {
   gap: 12px;
   width: 327px;
   height: 680px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
+
 .snapshotPortfolio1 {
   width: 295px;
   height: 220px;
@@ -102,29 +105,32 @@ body {
   flex-grow: 0;
   margin-top: 18px;
 }
+
 .leftBlock {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 2px;
   width: 295px;
   height: 288px;
 }
+
 .projectTitle {
   width: 295px;
   height: 60px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 44px;
   color: #172b4d;
 }
+
 .experience ul {
   display: flex;
   flex-direction: row;
-  padding: 0px;
+  padding: 0;
   gap: 2rem;
   width: 295px;
   height: fit-content;
@@ -132,51 +138,57 @@ body {
   text-decoration: none;
   list-style: none;
 }
-.experience ul li {
+
+.experience li {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 13px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   color: #7a869a;
 }
+
 .textt {
   width: 295px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   color: #344563;
 }
+
 .tagss {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 15px;
   width: 214px;
   height: 24px;
 }
+
 .tagss li {
   list-style: none;
   background: #ebebff;
   padding: 6px 14px;
   border-radius: 8px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 20px;
   letter-spacing: 0.03em;
   width: auto;
+
   /* Primary/B400 */
   color: #6070ff;
 }
+
 .action {
   margin-top: 3.5rem;
   margin-bottom: 1rem;
@@ -188,7 +200,7 @@ body {
 
 .see-project {
   box-sizing: border-box;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -201,7 +213,7 @@ body {
   gap: 10px;
   width: 170px;
   height: 68px;
-  left: 0px;
+  left: 0;
   top: calc(50% - 48px / 2);
   border: 2px solid #6070ff;
   border-radius: 12px;
